@@ -1,0 +1,27 @@
+{
+  "name": "yapperbox",
+  "version": "1.0.0",
+  "description": "Chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesCraft10/YapperBox.git"
+  },
+  "author": "JamesCraft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesCraft10/YapperBox/issues"
+  },
+  "homepage": "https://github.com/JamesCraft10/YapperBox#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
